@@ -47,13 +47,13 @@ var example = example || {};
         
         this.valueMap = {
             "/knobs/0": carrierSpec.freq,
-            "/fader1/out": carrierSpec.freq,
+            "/1/fader1": carrierSpec.freq,
 
             "/knobs/1": carrierSpec.mul,
-            "/fader2/out": carrierSpec.mul,
+            "/1/fader2": carrierSpec.mul,
 
             "/knobs/2": modulatorSpec.freq,
-            "/fader3/out": modulatorSpec.freq,
+            "/1/fader3": modulatorSpec.freq,
 
             "/knobs/3": modulatorSpec.mul,
             "/fader4/out": modulatorSpec.mul
